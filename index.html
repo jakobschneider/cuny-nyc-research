@@ -45,7 +45,7 @@ html, body, #googft-mapCanvas {
   height: 700px;
   margin: 0;
   padding: 0;
-  width: 1000px;
+  width: 900px;
 }
 </style>
 
@@ -62,7 +62,7 @@ html, body, #googft-mapCanvas {
     }
     var mapDiv = document.getElementById('googft-mapCanvas');
     mapDiv.style.width = isMobile ? '100%' : '700px';
-    mapDiv.style.height = isMobile ? '100%' : '1000px';
+    mapDiv.style.height = isMobile ? '100%' : '900px';
     var map = new google.maps.Map(mapDiv, {
       center: new google.maps.LatLng(40.672203, -73.922291),
       zoom: 11.5,
